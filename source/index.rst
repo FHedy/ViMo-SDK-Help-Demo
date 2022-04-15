@@ -17,11 +17,3 @@ Welcome to ViMo SDK Help!
   requirements
   FAQ
   
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
