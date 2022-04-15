@@ -53,6 +53,10 @@ language = 'zh_CN'
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
+extensions = [
+    'recommonmark',
+    'sphinx_markdown_tables'
+ ]
 
 # -- Options for HTML output -------------------------------------------------
 
