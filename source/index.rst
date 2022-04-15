@@ -7,7 +7,7 @@ Welcome to ViMo SDK Help!
 ======================================
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
   :glob:
   :caption: Contents:
   
