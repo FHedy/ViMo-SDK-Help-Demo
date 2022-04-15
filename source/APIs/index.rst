@@ -6,7 +6,7 @@
 APIs
 ======================================
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
   
   C++ API
   C_API
