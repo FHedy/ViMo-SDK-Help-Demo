@@ -30,7 +30,10 @@ release = 'A00.1'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark']
+extensions = [
+    'recommonmark'
+    'sphinx_markdown_tables'
+]
 
 source_suffix = {
     '.rst': 'restructuredtext',
@@ -52,11 +55,6 @@ language = 'zh_CN'
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
-
-extensions = [
-    'recommonmark',
-    'sphinx_markdown_tables'
- ]
 
 # -- Options for HTML output -------------------------------------------------
 
