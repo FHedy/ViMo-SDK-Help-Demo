@@ -8,6 +8,6 @@ APIs
 .. toctree::
   :maxdepth: 1
   
-  C++ API
+  API
   C_API
   CSharp_API
