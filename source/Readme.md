@@ -59,7 +59,7 @@
 
 关于 ViMo SDK 相关接口的描述、方法定义及参数说明等内容，请参考：
 
-- [C++ 接口文档](./APIs/C++ API.md)
+- [C++ 接口文档](./APIs/API.md)
 - [C 接口文档](./APIs/C_API.md)
 - [C# 接口文档](./APIs/CSharp_API.md)
 
