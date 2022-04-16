@@ -21,7 +21,7 @@
 - `cmake`：SDK cmake文件
 - `doc`：SDK 相关使用文档
   - API接口文档：
-    - C++ 接口文档：`API.md`
+    - C++ 接口文档：`C++ API.md`
     - C 接口文档：`C_API.md`
     - C# 接口文档：`CSharp_API.md`
   - SDK 调用方法：`documentation.md`
@@ -64,7 +64,7 @@
 
 关于 ViMo SDK 相关接口的描述、方法定义及参数说明等内容，请参考：
 
-- [C++ 接口文档](./APIs/API.md)
+- [C++ 接口文档](./APIs/C++ API.md)
 - [C 接口文档](./APIs/C_API.md)
 - [C# 接口文档](./APIs/CSharp_API.md)
 
