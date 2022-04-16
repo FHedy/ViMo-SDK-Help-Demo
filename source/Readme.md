@@ -39,17 +39,14 @@
 | Items    | Specifications                   |
 | -------- | -------------------------------- |
 | CPU要求  | i7，i9                           |
-| 显卡要求 | Nvidia 显卡20 系列，至少 8G 显存 |
-| 操作系统 | Windows 10，Linux                |
+| 显卡要求 | Nvidia 显卡20 系列，至少 8G 显存   |
+| 操作系统 | Windows 10，Linux                 |
 
 2. 软件环境依赖要求
 
    - OpenCV 4.2.0
-
    - ONNXRuntime 1.7.0
-
    - CUDA 11.0（GPU 版）
-
    - cuDNN 8.0 for CUDA 11.0（GPU 版）
 
 3. 配置依赖
