@@ -54,25 +54,25 @@
 
 3. 配置依赖
 
-   基于依赖要求准备软件环境时，请参考[依赖要求及安装方法](./doc/requirements.md)中的**配置依赖**。
+   基于依赖要求准备软件环境时，请参考[依赖要求及安装方法](./requirements.md)中的**配置依赖**。
 
 4. 验证环境准备是否正确
 
-   配置依赖后需验证环境准备是否正确，请参考[依赖要求及安装方法](./doc/requirements.md)中的**验证依赖**。
+   配置依赖后需验证环境准备是否正确，请参考[依赖要求及安装方法](./requirements.md)中的**验证依赖**。
 
 ## API接口说明
 
 关于 ViMo SDK 相关接口的描述、方法定义及参数说明等内容，请参考：
 
-- [C++ 接口文档](./doc/API.md)
-- [C 接口文档](./doc/C_API.md)
-- [C# 接口文档](./doc/CSharp_API.md)
+- [C++ 接口文档](./APIs/API.md)
+- [C 接口文档](./APIs/C_API.md)
+- [C# 接口文档](./APIs/CSharp_API.md)
 
 ## SDK调用说明
 
-关于 ViMo SDK 的详细调用流程及调用方法示例，请参考[SDK 调用方法](./doc/documentation.md)。
+关于 ViMo SDK 的详细调用流程及调用方法示例，请参考[SDK 调用方法](./documentation.md)。
 
 ## FAQ
 
-关于 ViMo SDK 的常见问题及解答，请参考[FAQ文档](./doc/FAQ.md)。
+关于 ViMo SDK 的常见问题及解答，请参考[FAQ文档](./FAQ.md)。
 
