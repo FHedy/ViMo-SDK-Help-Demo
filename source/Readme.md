@@ -41,7 +41,6 @@
 | 操作系统 | Windows 10，Linux                 |
 
 2. 软件环境依赖要求
-
    - OpenCV 4.2.0
    - ONNXRuntime 1.7.0
    - CUDA 11.0（GPU 版）
