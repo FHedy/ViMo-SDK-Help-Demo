@@ -139,21 +139,21 @@ C++ SDK提供3个主要接口：
   | any_req         | `Any`类型请求体，可以转化为四类算法请求体（无自定义需求无需关心各类算法请求体定义，感兴趣可参考本文档附录部分），由构造函数初始化 |
   | SeriesRequest() | 请求结构体构造函数，详细见下                                 |
 
-    - 构造函数
+  - 构造函数
 
-     - SeriesRequest(const SDKType &type, const std::string &input_path)
+   - SeriesRequest(const SDKType &type, const std::string &input_path)
 
-    | 参数       | 类型               | 约束 | 说明                                                         |
-    | ---------- | ------------------ | -----|------------------------------------------------------------ |
-    | type       | const SDKType&     | 必选 | 用于初始化`sdk_type`成员，由调用者输入，可由已初始化的SDK实例`GetFirstType()`函数获取 |
-    | input_path | const std::string& | 必选 | 输入的图片路径，用于初始化`any_req`成员，由调用者输入，图片可以是三通道彩色(CV\_8UC3)的图像或者单通道(CV\_8UC1)的灰度图 |
+  | 参数       | 类型               | 约束 | 说明                                                         |
+  | ---------- | ------------------ | -----|------------------------------------------------------------ |
+  | type       | const SDKType&     | 必选 | 用于初始化`sdk_type`成员，由调用者输入，可由已初始化的SDK实例`GetFirstType()`函数获取 |
+  | input_path | const std::string& | 必选 | 输入的图片路径，用于初始化`any_req`成员，由调用者输入，图片可以是三通道彩色(CV\_8UC3)的图像或者单通道(CV\_8UC1)的灰度图 |
 
-     - SeriesRequest(const SDKType &type, const cv::Mat &mat)
+   - SeriesRequest(const SDKType &type, const cv::Mat &mat)
 
-    | 参数 | 类型            | 约束 | 说明                                                         |
-    | ----- | --------------- | ---- | ------------------------------------------------------------ |
-    | type | const SDKType & | 必选 | 用于初始化`sdk_type`成员，由调用者输入，可由已初始化的SDK实例`GetFirstType()`函数获取 |
-    | mat  | const cv::Mat&  | 必选 | 输入的OpenCV Mat类，用于初始化`any_req`成员，由调用者输入，图片可以是三通道彩色(CV\_8UC3)的图像或者单通道(CV\_8UC1)的灰度图 |
+  | 参数 | 类型            | 约束 | 说明                                                         |
+  | ----- | --------------- | ---- | ------------------------------------------------------------ |
+  | type | const SDKType & | 必选 | 用于初始化`sdk_type`成员，由调用者输入，可由已初始化的SDK实例`GetFirstType()`函数获取 |
+  | mat  | const cv::Mat&  | 必选 | 输入的OpenCV Mat类，用于初始化`any_req`成员，由调用者输入，图片可以是三通道彩色(CV\_8UC3)的图像或者单通道(CV\_8UC1)的灰度图 |
 
 - <span id="SeriesResponse">SeriesResponse</span>
 
